@@ -2,7 +2,7 @@ import {defineField, defineType} from 'sanity'
 
 export const cardapioSegunda = defineType({
   name: 'cardapioSegunda',
-  title: 'cardapio',
+  title: 'cardapioSegunda',
   type: 'document',
   fields: [
     defineField({
@@ -19,14 +19,6 @@ export const cardapioSegunda = defineType({
     }),
     defineField({
       name: 'ingrediente4',
-      type: 'string',
-    }),
-    defineField({
-      name: 'ingrediente5',
-      type: 'string',
-    }),
-    defineField({
-      name: 'ingrediente6',
       type: 'string',
     }),
     defineField({
