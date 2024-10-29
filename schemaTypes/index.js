@@ -1,5 +1,6 @@
-import { cardapioSegunda } from "./cardapioSegunda";
-
+import { cardapio} from "./cardapio";
+import { itensType } from "./itensType";
 import { sobreEmpresa } from "./sobreEmpresa";
 
-export const schemaTypes = [cardapioSegunda, sobreEmpresa]
+
+export const schemaTypes = [itensType, cardapio, sobreEmpresa]
