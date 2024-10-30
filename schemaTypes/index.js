@@ -1,7 +1,7 @@
-import { cardapioSegunda } from "./cardapioSegunda";
-
+import { cardapio} from "./cardapio";
+import { contato } from "./contato";
+import { itensType } from "./itensType";
 import { sobreEmpresa } from "./sobreEmpresa";
 
-import { contato } from "./contato";
 
-export const schemaTypes = [cardapioSegunda, sobreEmpresa, contato]
+export const schemaTypes = [itensType, cardapio, sobreEmpresa, contato];
